@@ -45,12 +45,14 @@
 .header__subtitle {
   position: absolute;
   max-width: 388px;
+  margin: 0;
   margin-left: 64px;
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   z-index: 2;
+
 }
 
 .header__link {
@@ -281,13 +283,6 @@
   z-index: 1;
 }
 
-.table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: 600;
-  margin: 0;
-}
-
 .table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
@@ -299,7 +294,7 @@
 .footer {
   display: flex;
   min-height: 350px;
-  background-color: #000;
+  background-color: #1f1f1f;
   padding: 60px 0 40px;
   box-sizing: border-box;
   color: white;
